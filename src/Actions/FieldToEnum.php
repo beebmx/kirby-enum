@@ -72,7 +72,7 @@ class FieldToEnum
                 ->invoke(null, $value)
             : array_find(
                 $enum->getMethod('cases')->invoke(null),
-                fn ($case) => $case->name === $value || $case->value === $value
+                fn ($case) => $case->name === $value
             );
     }
 }

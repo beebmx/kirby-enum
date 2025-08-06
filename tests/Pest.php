@@ -36,9 +36,6 @@ function App(array $roots = [], array $options = []): App
             'base' => $base = dirname(__DIR__).'/tests/Fixtures',
             'site' => $site = $base.'/site',
         ], $roots),
-        // 'options' => array_merge([
-        //    'beebmx.kirby-sign' => require dirname(__DIR__).'/extensions/options.php',
-        // ], $options),
         'fields' => require dirname(__DIR__).'/extensions/fields.php',
     ]);
 }

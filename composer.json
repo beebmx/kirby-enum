@@ -3,7 +3,7 @@
     "description": "Kirby Enum adds the ability to display and set enumeration content in the panel.",
     "license": "MIT",
     "type": "kirby-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "enum",
         "enums",
