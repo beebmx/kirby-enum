@@ -5,11 +5,11 @@
 <a href="https://packagist.org/packages/beebmx/kirby-enum"><img src="https://img.shields.io/packagist/l/beebmx/kirby-enum" alt="License"></a>
 </p>
 
-# Kirby Enum
+# Enum for Kirby
 
-`Kirby Enum` adds the ability to display and set enumeration content in the panel.
+`Enum` adds the ability to display and set enumeration content in the panel.
 
-![Kirby Courier example](/.github/assets/banner.jpg)
+![Enum example](/.github/assets/banner.jpg)
 
 ****
 
@@ -124,7 +124,7 @@ enum Network: string implements HasLabel
 
 ## Usage in templates
 
-`Kirby Enum` comes with a convenient field method to retrieve the proper `enum case` in your templates.
+`Enum` comes with a convenient field method to retrieve the proper `enum case` in your templates.
 
 ```php
 <?php
